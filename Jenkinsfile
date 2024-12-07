@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Git clone') {
             steps {
-            git branch: 'master',url: 'https://github.com/sarthakharne/ticketresolver_backend.git'
+            git branch: 'master',url: 'https://github.com/madhav0407/TicketResolver_Backend.git'
             }
         }
 
@@ -25,7 +25,7 @@ pipeline {
         stage('Docker Build Image') {
             steps {
                 script{
-                    dockerimage=docker.build "sarthakharne2262/ticketresolver-backend"
+                    dockerimage=docker.build "madhavsood04/ticketresolver-backend"
                 }
             }
         }
