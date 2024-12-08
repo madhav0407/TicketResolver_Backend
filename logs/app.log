@@ -1,20 +1,20 @@
-2024-12-07 19:10:36 [restartedMain] INFO  com.had.selfhelp.SelfhelpApplication - Starting SelfhelpApplication using Java 1.8.0_422 on madhav-HP-Pavilion-Laptop-14-dv0xxx with PID 11805 (/home/madhav/Desktop/SPE/TicketResolver_Backend/target/classes started by madhav in /home/madhav/Desktop/SPE/TicketResolver_Backend)
-2024-12-07 19:10:36 [restartedMain] INFO  com.had.selfhelp.SelfhelpApplication - No active profile set, falling back to 1 default profile: "default"
-2024-12-07 19:10:36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-12-07 19:10:36 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-12-07 19:10:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-07 19:10:37 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63 ms. Found 4 JPA repository interfaces.
-2024-12-07 19:10:37 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
-2024-12-07 19:10:37 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-12-07 19:10:37 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
-2024-12-07 19:10:37 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-12-07 19:10:37 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1525 ms
-2024-12-07 19:10:37 [restartedMain] INFO  c.had.selfhelp.util.SimpleCORSFilter - SimpleCORSFilter init
-2024-12-07 19:10:37 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-07 19:10:38 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.14.Final
-2024-12-07 19:10:38 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2024-12-07 19:10:38 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2024-12-07 19:10:39 [restartedMain] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+2024-12-08 16:50:59 [restartedMain] INFO  com.had.selfhelp.SelfhelpApplication - Starting SelfhelpApplication using Java 1.8.0_422 on madhav-HP-Pavilion-Laptop-14-dv0xxx with PID 20859 (/home/madhav/Desktop/SPE/TicketResolver_Backend/target/classes started by madhav in /home/madhav/Desktop/SPE/TicketResolver_Backend)
+2024-12-08 16:51:00 [restartedMain] INFO  com.had.selfhelp.SelfhelpApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-08 16:51:00 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-08 16:51:00 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-08 16:51:00 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08 16:51:00 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 4 JPA repository interfaces.
+2024-12-08 16:51:01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-12-08 16:51:01 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-08 16:51:01 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2024-12-08 16:51:01 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-08 16:51:01 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1399 ms
+2024-12-08 16:51:01 [restartedMain] INFO  c.had.selfhelp.util.SimpleCORSFilter - SimpleCORSFilter init
+2024-12-08 16:51:01 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08 16:51:01 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2024-12-08 16:51:01 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-12-08 16:51:01 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-08 16:51:02 [restartedMain] ERROR com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -183,7 +183,7 @@ Caused by: java.net.UnknownHostException: mysql_db: Temporary failure in name re
 	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:130)
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
 	... 138 common frames omitted
-2024-12-07 19:10:39 [restartedMain] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata
+2024-12-08 16:51:02 [restartedMain] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata
 com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
@@ -352,14 +352,14 @@ Caused by: java.net.UnknownHostException: mysql_db: Temporary failure in name re
 	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:130)
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
 	... 138 common frames omitted
-2024-12-07 19:10:39 [restartedMain] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-2024-12-07 19:10:39 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'simpleCORSFilter': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.had.selfhelp.dao.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot create inner bean '(inner bean)#349b7f93' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#349b7f93': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
-2024-12-07 19:10:39 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-2024-12-07 19:10:39 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
-2024-12-07 19:10:39 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+2024-12-08 16:51:02 [restartedMain] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2024-12-08 16:51:02 [restartedMain] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'simpleCORSFilter': Unsatisfied dependency expressed through field 'userService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'userRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userRepository' defined in com.had.selfhelp.dao.UserRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Cannot create inner bean '(inner bean)#349b7f93' of type [org.springframework.orm.jpa.SharedEntityManagerCreator] while setting bean property 'entityManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#349b7f93': Cannot resolve reference to bean 'entityManagerFactory' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2024-12-08 16:51:02 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-12-08 16:51:02 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2024-12-08 16:51:02 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2024-12-07 19:10:39 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
+2024-12-08 16:51:02 [restartedMain] ERROR o.s.boot.SpringApplication - Application run failed
 org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:165)
 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
@@ -510,72 +510,103 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
 	... 119 common frames omitted
-2024-12-07 19:14:14 [restartedMain] INFO  com.had.selfhelp.SelfhelpApplication - Starting SelfhelpApplication using Java 1.8.0_422 on madhav-HP-Pavilion-Laptop-14-dv0xxx with PID 12249 (/home/madhav/Desktop/SPE/TicketResolver_Backend/target/classes started by madhav in /home/madhav/Desktop/SPE/TicketResolver_Backend)
-2024-12-07 19:14:14 [restartedMain] INFO  com.had.selfhelp.SelfhelpApplication - No active profile set, falling back to 1 default profile: "default"
-2024-12-07 19:14:14 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-12-07 19:14:14 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-12-07 19:14:15 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-07 19:14:15 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 4 JPA repository interfaces.
-2024-12-07 19:14:16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
-2024-12-07 19:14:16 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-12-07 19:14:16 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
-2024-12-07 19:14:16 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-12-07 19:14:16 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1478 ms
-2024-12-07 19:14:16 [restartedMain] INFO  c.had.selfhelp.util.SimpleCORSFilter - SimpleCORSFilter init
-2024-12-07 19:14:16 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-07 19:14:16 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.14.Final
-2024-12-07 19:14:16 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2024-12-07 19:14:16 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2024-12-07 19:14:16 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2024-12-07 19:14:16 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2024-12-07 19:14:16 [restartedMain] WARN  o.h.t.d.j.JavaTypeDescriptorRegistry - HHH000481: Encountered Java type [class java.lang.Object] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
-2024-12-07 19:14:16 [restartedMain] WARN  o.h.t.d.j.JavaTypeDescriptorRegistry - HHH000481: Encountered Java type [class java.lang.Object] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
-2024-12-07 19:14:16 [restartedMain] WARN  o.h.t.d.j.JavaTypeDescriptorRegistry - HHH000481: Encountered Java type [class java.lang.Object] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
-2024-12-07 19:14:16 [restartedMain] WARN  o.h.t.d.j.JavaTypeDescriptorRegistry - HHH000481: Encountered Java type [class java.lang.Object] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
-2024-12-07 19:14:16 [restartedMain] WARN  o.h.t.d.j.JavaTypeDescriptorRegistry - HHH000481: Encountered Java type [class java.lang.Object] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
-2024-12-07 19:14:17 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-12-07 19:14:17 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-07 19:14:18 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-07 19:14:18 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4c1f5e08, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7dfdc3b3, org.springframework.security.web.context.SecurityContextPersistenceFilter@4417d8bd, org.springframework.security.web.header.HeaderWriterFilter@6f884e7, org.springframework.web.filter.CorsFilter@4bb55ba3, org.springframework.security.web.authentication.logout.LogoutFilter@61a7da92, com.had.selfhelp.jwt.AuthTokenFilter@2f621419, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6579c9d4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ee823ae, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19471768, org.springframework.security.web.session.SessionManagementFilter@7636033, org.springframework.security.web.access.ExceptionTranslationFilter@5a22a33b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@555f7174]
-2024-12-07 19:14:18 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2024-12-07 19:14:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
-2024-12-07 19:14:19 [restartedMain] INFO  com.had.selfhelp.SelfhelpApplication - Started SelfhelpApplication in 4.72 seconds (JVM running for 5.143)
-2024-12-07 19:15:28 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-07 19:15:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2024-12-07 19:15:28 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
-2024-12-07 19:15:52 [restartedMain] INFO  com.had.selfhelp.SelfhelpApplication - Starting SelfhelpApplication using Java 1.8.0_422 on madhav-HP-Pavilion-Laptop-14-dv0xxx with PID 12508 (/home/madhav/Desktop/SPE/TicketResolver_Backend/target/classes started by madhav in /home/madhav/Desktop/SPE/TicketResolver_Backend)
-2024-12-07 19:15:52 [restartedMain] INFO  com.had.selfhelp.SelfhelpApplication - No active profile set, falling back to 1 default profile: "default"
-2024-12-07 19:15:52 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2024-12-07 19:15:52 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2024-12-07 19:15:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-07 19:15:52 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 4 JPA repository interfaces.
-2024-12-07 19:15:53 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
-2024-12-07 19:15:53 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2024-12-07 19:15:53 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
-2024-12-07 19:15:53 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-12-07 19:15:53 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1430 ms
-2024-12-07 19:15:53 [restartedMain] INFO  c.had.selfhelp.util.SimpleCORSFilter - SimpleCORSFilter init
-2024-12-07 19:15:53 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-07 19:15:53 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.14.Final
-2024-12-07 19:15:53 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2024-12-07 19:15:54 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2024-12-07 19:15:54 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-2024-12-07 19:15:54 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2024-12-07 19:15:54 [restartedMain] WARN  o.h.t.d.j.JavaTypeDescriptorRegistry - HHH000481: Encountered Java type [class java.lang.Object] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
-2024-12-07 19:15:54 [restartedMain] WARN  o.h.t.d.j.JavaTypeDescriptorRegistry - HHH000481: Encountered Java type [class java.lang.Object] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
-2024-12-07 19:15:54 [restartedMain] WARN  o.h.t.d.j.JavaTypeDescriptorRegistry - HHH000481: Encountered Java type [class java.lang.Object] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
-2024-12-07 19:15:54 [restartedMain] WARN  o.h.t.d.j.JavaTypeDescriptorRegistry - HHH000481: Encountered Java type [class java.lang.Object] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
-2024-12-07 19:15:54 [restartedMain] WARN  o.h.t.d.j.JavaTypeDescriptorRegistry - HHH000481: Encountered Java type [class java.lang.Object] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
-2024-12-07 19:15:55 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-12-07 19:15:55 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-07 19:15:55 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-07 19:15:55 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1a89ab28, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29e1396d, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f884e7, org.springframework.security.web.header.HeaderWriterFilter@25dbd14e, org.springframework.web.filter.CorsFilter@b2eea53, org.springframework.security.web.authentication.logout.LogoutFilter@5ca629c6, com.had.selfhelp.jwt.AuthTokenFilter@3cde9253, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37cf80a8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e4c7f00, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@555f7174, org.springframework.security.web.session.SessionManagementFilter@5a22a33b, org.springframework.security.web.access.ExceptionTranslationFilter@69fe14a4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19dc48d8]
-2024-12-07 19:15:56 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2024-12-07 19:15:56 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
-2024-12-07 19:15:56 [restartedMain] INFO  com.had.selfhelp.SelfhelpApplication - Started SelfhelpApplication in 4.427 seconds (JVM running for 4.891)
-2024-12-07 19:16:22 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-07 19:16:22 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2024-12-07 19:16:22 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
-2024-12-07 19:16:31 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-07 19:16:31 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2024-12-07 19:16:31 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-08 16:52:21 [restartedMain] INFO  com.had.selfhelp.SelfhelpApplication - Starting SelfhelpApplication using Java 1.8.0_422 on madhav-HP-Pavilion-Laptop-14-dv0xxx with PID 21060 (/home/madhav/Desktop/SPE/TicketResolver_Backend/target/classes started by madhav in /home/madhav/Desktop/SPE/TicketResolver_Backend)
+2024-12-08 16:52:21 [restartedMain] INFO  com.had.selfhelp.SelfhelpApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-08 16:52:21 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-08 16:52:21 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-08 16:52:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-08 16:52:21 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49 ms. Found 4 JPA repository interfaces.
+2024-12-08 16:52:22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-12-08 16:52:22 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-08 16:52:22 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.71]
+2024-12-08 16:52:22 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-08 16:52:22 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1394 ms
+2024-12-08 16:52:22 [restartedMain] INFO  c.had.selfhelp.util.SimpleCORSFilter - SimpleCORSFilter init
+2024-12-08 16:52:22 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-08 16:52:22 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.14.Final
+2024-12-08 16:52:22 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-12-08 16:52:22 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-08 16:52:23 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-08 16:52:23 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-12-08 16:52:23 [restartedMain] WARN  o.h.t.d.j.JavaTypeDescriptorRegistry - HHH000481: Encountered Java type [class java.lang.Object] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2024-12-08 16:52:23 [restartedMain] WARN  o.h.t.d.j.JavaTypeDescriptorRegistry - HHH000481: Encountered Java type [class java.lang.Object] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2024-12-08 16:52:23 [restartedMain] WARN  o.h.t.d.j.JavaTypeDescriptorRegistry - HHH000481: Encountered Java type [class java.lang.Object] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2024-12-08 16:52:23 [restartedMain] WARN  o.h.t.d.j.JavaTypeDescriptorRegistry - HHH000481: Encountered Java type [class java.lang.Object] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2024-12-08 16:52:23 [restartedMain] WARN  o.h.t.d.j.JavaTypeDescriptorRegistry - HHH000481: Encountered Java type [class java.lang.Object] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2024-12-08 16:52:23 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-12-08 16:52:23 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08 16:52:24 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-08 16:52:24 [restartedMain] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7c39c7a3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@24553927, org.springframework.security.web.context.SecurityContextPersistenceFilter@5c744a2b, org.springframework.security.web.header.HeaderWriterFilter@43af926c, org.springframework.web.filter.CorsFilter@72b4b9d3, org.springframework.security.web.authentication.logout.LogoutFilter@3bbce2a1, com.had.selfhelp.jwt.AuthTokenFilter@3ea2ae7b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@35cac6dc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b99ae96, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c179dd2, org.springframework.security.web.session.SessionManagementFilter@6579c9d4, org.springframework.security.web.access.ExceptionTranslationFilter@37cf80a8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c1f5e08]
+2024-12-08 16:52:24 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-08 16:52:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-12-08 16:52:24 [restartedMain] INFO  com.had.selfhelp.SelfhelpApplication - Started SelfhelpApplication in 4.224 seconds (JVM running for 4.665)
+2024-12-08 16:53:29 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-08 16:53:29 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-08 16:53:29 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-12-08 16:53:29 [http-nio-8081-exec-2] INFO  c.h.s.controller.AuthController - login
+2024-12-08 17:01:43 [http-nio-8081-exec-5] ERROR com.had.selfhelp.jwt.AuthTokenFilter - Cannot set user authentication: {}
+org.springframework.security.core.userdetails.UsernameNotFoundException: Could not able to find the user.
+	at com.had.selfhelp.service.MyCustomUserDetailsService.loadUserByUsername(MyCustomUserDetailsService.java:20)
+	at com.had.selfhelp.jwt.AuthTokenFilter.doFilterInternal(AuthTokenFilter.java:43)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-12-08 17:01:43 [http-nio-8081-exec-5] INFO  c.h.s.controller.AuthController - registering the customer
+2024-12-08 17:01:58 [http-nio-8081-exec-7] INFO  c.h.s.controller.AuthController - login
+2024-12-08 17:01:58 [http-nio-8081-exec-10] INFO  c.h.s.controller.CustomerController - updating the complaints instance
+2024-12-08 17:01:58 [http-nio-8081-exec-1] INFO  c.h.s.controller.CustomerController - updating the complaints instance
+2024-12-08 17:15:36 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-08 17:15:36 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-08 17:15:36 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
